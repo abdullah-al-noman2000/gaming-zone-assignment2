@@ -4,13 +4,23 @@
         width: 20%;
             
     }
-    .nav-items-container {
-        flex-direction: column;
-    }
-    .banner-container{
+    .nav-items-container,  .banner-container,   .team-container, .card-section, .game-container,.career-container  {
         flex-direction: column;
     }
     .banner-img img {
         width: 100%;
+    }
+    .team-container img{
+        width: 80%;
+    }
+    .card img{
+        padding-top: 35px;
+    }
+    .cat-img{
+        margin-left: -145px;
+        margin-top: 71px;
+    }
+    .games-description {
+        margin: -177px 64px;
     }
 }
